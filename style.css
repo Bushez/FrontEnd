@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
+p {color:black }
+li {color:black}
+
+header {
+    display: flex;
+    gap: 70px;
+}
+
+header ul{
+    display: flex;
+    gap: 30px;
+}
+
+.image_main {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("lotus-flower.png");
+
+}
+
+.image_main h1{
+    padding-top: 100px;
+    margin-left: 30px;
+}
+.image_main h1:nth-child(2){
+    padding-top: 50px;
+    margin-left: 330px;
+}
+
+.image_main h1:nth-child(3){
+    padding-top: 50px;
+    margin-left: 630px;
+}
+
+
+h1 {
+    font-size: 64px;
+    font-family:"Raleway", sans-serif;
+    letter-spacing: 10px;
+    color:aliceblue;
+}
+
+.img_bottom{
+    display: flex;
+    gap: 100px;
+}
+
+h3 {
+    font-family: "Raleway";
+    font-size: 20px;
+    color:aliceblue;
+    letter-spacing: 2px;
+    word-spacing: 20px;
+    font-weight: 300;
+}
+
+.img_bottom button{
+    background: transparent;
+}
