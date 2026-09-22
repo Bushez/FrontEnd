@@ -97,6 +97,7 @@ h2 {
     text-decoration: underline;
     letter-spacing: 0;
     margin: 0;
+    word-spacing: 0;
 }
 .lot h4 {
     font-family: "Raleway";
