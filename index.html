@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>>
+    <title>Document</title>
     <link rel="stylesheet" href = "style.css">
 </head>
 <body>
     <header class="header">
         <nav>
             <ul>
-                <li><a href="/">Главная</a></li>
-                <li><a href="/">Посмотреть лоты</a></li>
-                <li><a href="/">Об аукционе</a></li>
+                <li><a href="/" >главная</a></li>
+                <li><a href="/" class="underlined_header">посмотреть лоты</a></li>
+                <li><a href="/" class="underlined_header">об аукционе</a></li>
             </ul>
         </nav>
-        <img src="logo.svg">
-        <div class="contact_info">
-            <p> 9 999 555 5555</p>
-            <p> info@sobaka.ge</p>
+        <img class="logo" src="img/logo.svg">
+        <div class="contact_info" >
+            <p class="underlined_header"> +9 999 555 5555</p>
+            <p class="underlined_header"> info@sobaka.ge</p>
             <p> наб. Принсенграхт 263- 265, Амстердам</p>
         </div>
     </header>
@@ -40,20 +40,49 @@
         <h2> ЛОТЫ</h2>
         <section class="lots">
             
-            <article class="lot" style="--bg: url('photo (2).png')">
+            <article class="lot" style="--bg: url('img/photo (2).png')">
                 <h3>Фильм режиссёра, который бросил киношколу</h3>
                 <h4>Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</h4>
             </article>     
-            <article class="lot" style="--bg: url('photo (1).png')">
+            <article class="lot" style="--bg: url('img/photo (1).png')">
                 <h3>Книга, где описан один скучный день из жизни рекламного агента</h3>
                 <h4>Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</h4>
             </article>  
-            <article class="lot" style="--bg: url('photo.png')">
+            <article class="lot" style="--bg: url('img/photo.png')">
                 <h3>Картина, которую повторит даже 5-летний сын маминой подруги</h3>
                 <h4>Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</h4>
             </article>  
         </section>
-        
+        <div class="look_more">
+            <h4> посмотреть больше</h4>
+        </div>
+        <section class="about">
+            <img class="about_img" src="img/logo.png">
+            <div class="about_text">
+                <h2>ОБ АУКЦИОНЕ</h2>
+                <h4>Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</h4>
+                <h4>Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря
+на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. </h4>
+            </div>
+        </section>
+        <footer>
+            <div class="contact_info" >
+            <p class="underlined_header"> +9 999 555 5555</p>
+            <p class="underlined_header"> info@sobaka.ge</p>
+            <p> наб. Принсенграхт 263- 265, Амстердам</p>
+            </div> 
+            <nav>
+                <ul>
+                    <li><a href="/" >главная</a></li>
+                    <li><a href="/" class="underlined_header">посмотреть лоты</a></li>
+                    <li><a href="/" class="underlined_header">об аукционе</a></li>
+                </ul>    
+            </nav>
+            <social_media>
+                <img src="img/youtube.png">
+                <img src="img/vk.png">
+                <img src="img/pinterest.png">
+        </footer>
 
     </main>
 </body>
