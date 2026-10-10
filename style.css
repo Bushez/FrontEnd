@@ -3,8 +3,13 @@ p {color:black }
 li {color:black}
 
 html{
+    margin: 0;
+    padding: 0;
+}
+body {
     max-width: 1100px;
-    width: 100%; 
+    width: 100%;
+    margin: 0 auto;
 }
 
 * {
@@ -83,57 +88,40 @@ header a {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url("img/lotus-flower.png");
-    padding: 40px;
-
+    padding: 50px;
+    max-height: 757px;
+    margin-bottom: 180px;
 }
 
 .image_main h1{
-    padding-top: 100px;
-    margin-left: 30px;
+    color:aliceblue;
     font-family: Raleway;
     font-weight: 700;
     font-style: Bold;
     font-size: 100px;
     line-height: 114.99999999999999%;
-    letter-spacing: 30%;
+    letter-spacing: 0.3em;
     text-transform: uppercase;
+    margin-top: 115px;
+    margin-bottom: 0;
 }
 
 .image_main h1:nth-child(2){
-    font-family: Raleway;
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 100px;
-    line-height: 114.99999999999999%;
-    letter-spacing: 30%;
     text-align: center;
-    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 0;
 }
 
 .image_main h1:nth-child(3){
-    font-family: Raleway;
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 100px;
-    line-height: 114.99999999999999%;
-    letter-spacing: 30%;
     text-align: right;
-    text-transform: uppercase;
-
+    margin-right: -0.3em;
+    margin-top: 20px;
+    margin-bottom: 106px;
 }
 
-
-h1 {
-    font-size: 64px;
-    font-family:"Raleway", sans-serif;
-    letter-spacing: 10px;
-    color:aliceblue;
-    text-transform: uppercase;
-}
 
 .img_bottom{
     display: flex;
-    gap: 100px;
     align-items: center;
     justify-content: space-between;
 }
@@ -184,6 +172,7 @@ h1 {
 
 }
 h2 {
+    margin-top: 0px;
     font-family: "Raleway";
     font-size: 40px;
     font-weight: 700;
@@ -269,9 +258,9 @@ footer{
     margin-top: 180px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 40px 50px;
-    background-color: #F5F5F5;
+    align-items: flex-start;
+    padding: 0 50px 0 50px;
+    height: 180px;
 }
 footer nav *{
     list-style: none;
@@ -282,6 +271,8 @@ footer nav *{
     line-height: 100%;
     letter-spacing: 0%;
     text-align: center;
+    padding: 0px;
+    margin: 0px;
 
 }
 .underlined_header {
