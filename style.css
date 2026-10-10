@@ -2,6 +2,11 @@
 p {color:black }
 li {color:black}
 
+html{
+    max-width: 1100px;
+    width: 100%; 
+}
+
 * {
     box-sizing: border-box;
 }
@@ -69,7 +74,7 @@ header a {
     text-decoration: none;
     color:black;
 }   
-header .underlined_header {
+.underlined_info {
     text-decoration: underline;
     color:black;
 }   
@@ -221,13 +226,72 @@ h2 {
     margin-left: 40px;
 }
 
+.about{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    gap: 72px; 
+    justify-content: space-between; 
+}
+.about img{
+    margin-left: 47px;
+    width: 240px;
+    height: 240px;
+}
+.about_text{
+    margin-right: 24px;
+}
+
+.about_text h2{
+    font-family: Raleway;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    margin-top: 101px;
+}
+
+.about_text h4{
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-bottom: 24px;
+}
+
+
 footer{
+    margin-top: 180px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 40px 50px;
     background-color: #F5F5F5;
 }
+footer nav *{
+    list-style: none;
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
 
+}
+.underlined_header {
+    text-decoration: underline;
+    color:black;
+} 
+
+.social_media {
+    display: flex;
+    gap: 48px;
+}
 
 
