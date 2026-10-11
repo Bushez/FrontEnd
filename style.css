@@ -1,11 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
-p {color:black }
-li {color:black}
 
-html{
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
+
+p {
+    color: black;
+}
+
+li {
+    color: black;
+}
+
+html {
     margin: 0;
     padding: 0;
 }
+
 body {
     max-width: 1100px;
     width: 100%;
@@ -21,19 +29,18 @@ header {
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
     height: 293px;
-    
 }
 
-header ul{
+header ul {
     display: flex;
 }
 
-.logo {
+.header__logo {
     width: 148px;
     height: 105px;
 }
 
-.contact-info { 
+.contact-info {
     display: flex;
     flex-direction: column;
     gap: 0px;
@@ -54,33 +61,33 @@ header ul{
     text-underline-offset: 4px;
 }
 
-
 header li {
     list-style: none;
     font-family: "Raleway";
-    color:black;
+    color: black;
     font-size: 18px;
     font-weight: 300;
-    font-style: normal;   
+    font-style: normal;
     line-height: 100%;
     letter-spacing: 0%;
 }
 
 header li + li::before {
-  content: "○";
-  margin-right: 13px;
-  margin-left: 13px;
-  font-size: 20px;
+    content: "○";
+    margin-right: 13px;
+    margin-left: 13px;
+    font-size: 20px;
 }
 
 header a {
     text-decoration: none;
-    color:black;
-}   
+    color: black;
+}
+
 .underlined-info {
     text-decoration: underline;
-    color:black;
-}   
+    color: black;
+}
 
 .image-main {
     background-image:
@@ -92,7 +99,7 @@ header a {
 }
 
 .image-main h1{
-    color:aliceblue;
+    color: aliceblue;
     font-family: Raleway;
     font-weight: 700;
     font-size: 100px;
@@ -103,29 +110,32 @@ header a {
     margin-bottom: 0;
 }
 
-.image-main h1:nth-child(2){
+.image-main h1 span {
+    display: block;
+}
+
+.image-main h1 span:nth-child(2) {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0;
     letter-spacing: 0.2em;
 }
 
-.image-main h1:nth-child(3){
+.image-main h1 span:nth-child(3) {
     text-align: right;
     margin-right: -0.3em;
     margin-top: 20px;
     margin-bottom: 106px;
 }
 
-
-.img-bottom{
+.image-main__bottom {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.img-bottom h3 {
-    color:aliceblue;
+.image-main__bottom h3 {
+    color: aliceblue;
     font-family: Raleway;
     font-weight: 400;
     font-style: normal;
@@ -135,14 +145,15 @@ header a {
     text-transform: uppercase;
     word-spacing: 0.9em;
 }
-.img-bottom button {
+
+.image-main__bottom button {
     width: 256px;
     height: 51px;
     background: transparent;
 }
 
-.img-bottom button{
-    color:aliceblue;
+.image-main__bottom button {
+    color: aliceblue;
     font-family: Raleway;
     font-weight: 400;
     font-style: normal;
@@ -152,22 +163,24 @@ header a {
     text-transform: uppercase;
     margin: 0;
 }
-.lots {display: flex; justify-content: space-between;}
+
+.lots {
+    display: flex;
+    justify-content: space-between;
+}
+
 .lot {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), var(--bg);
     background-size: cover;
     background-position: center;
-
     text-align: left;
     width: 334px;
     height: 596px;
-    
     padding: 48px 40px 40px;
-
     display: flex;
     flex-direction: column;
-
 }
+
 .lot--film {
     --bg: url("img/photo (2).png");
 }
@@ -179,18 +192,21 @@ header a {
 .lot--painting {
     --bg: url("img/photo.png");
 }
+
 h2 {
     margin-top: 0px;
     font-family: "Raleway";
     font-size: 40px;
     font-weight: 700;
-    color:black;
+    color: black;
     text-transform: uppercase;
     margin-bottom: 27px;
+    margin-left: 64px;
 }
+
 .lot h3 {
     font-family: "Raleway";
-    color:white;
+    color: white;
     font-weight: 700;
     font-size: 22px;
     line-height: 120%;
@@ -200,9 +216,10 @@ h2 {
     margin: 0;
     word-spacing: 0;
 }
+
 .lot h4 {
     font-family: "Raleway";
-    color:white;
+    color: white;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -211,9 +228,12 @@ h2 {
     margin-bottom: 0;
 }
 
-.look-more{margin-top: 32px;}
-.look-more a{
-    
+.look-more {
+    margin-top: 32px;
+}
+
+.look-more a {
+    margin-left: 64px;
     font-family: Raleway;
     font-weight: 400;
     font-style: normal;
@@ -223,26 +243,28 @@ h2 {
     text-decoration-line: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 4px;
-    margin-left: 40px;
 }
 
-.about{
+.about {
     margin-top: 155px;
     display: flex;
     flex-direction: row;
-    gap: 72px; 
-    justify-content: space-between; 
+    gap: 72px;
+    justify-content: space-between;
 }
-.about img{
-    margin-left: 47px;
+
+.about__image {
+    margin-left: 71px;
     width: 240px;
     height: 240px;
 }
-.about-text{
+
+.about__text {
     margin-right: 24px;
 }
 
-.about-text h2{
+.about__text h2 {
+    margin-left: 0px;
     font-family: Raleway;
     font-weight: 700;
     font-style: normal;
@@ -254,7 +276,7 @@ h2 {
     margin-top: 105px;
 }
 
-.about-text h4{
+.about__text h4 {
     font-family: Raleway;
     font-weight: 400;
     font-style: normal;
@@ -264,16 +286,16 @@ h2 {
     margin-bottom: 24px;
 }
 
-
-footer{
-    margin-top: 180px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+footer {
+    margin-top: 156px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: start;
     padding: 0 50px 0 50px;
     height: 180px;
 }
-footer nav *{
+
+footer nav * {
     list-style: none;
     font-family: Raleway;
     font-weight: 400;
@@ -284,16 +306,17 @@ footer nav *{
     text-align: center;
     padding: 0px;
     margin: 0px;
-
+    justify-self: center;
+    margin-top: 4px;
 }
-.underlined-header {
-    text-decoration: underline;
-    color:black;
-} 
+
+footer .contact-info {
+    display: flex;
+    justify-self: start;
+}
 
 .social-media {
     display: flex;
     gap: 48px;
+    justify-self: end;
 }
-
-
