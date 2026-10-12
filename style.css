@@ -118,14 +118,15 @@ header a {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0;
-    letter-spacing: 0.2em;
+    margin-left: 0.28em;
+    letter-spacing: 0.28em;
 }
 
 .image-main h1 span:nth-child(3) {
     text-align: right;
     margin-right: -0.3em;
     margin-top: 20px;
-    margin-bottom: 106px;
+    margin-bottom: 100px;
 }
 
 .image-main__bottom {
@@ -167,6 +168,7 @@ header a {
 .lots {
     display: flex;
     justify-content: space-between;
+    margin: 0 24px 0 24px;
 }
 
 .lot {
@@ -225,7 +227,7 @@ h2 {
     font-size: 20px;
     line-height: 120%;
     margin-top: auto;
-    margin-bottom: 0;
+    margin-bottom: 7px;
 }
 
 .look-more {
